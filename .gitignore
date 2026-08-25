@@ -1,0 +1,14 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Context Manager local state (machine-specific paths / generated index)
+config.yaml
+catalog.sqlite3

@@ -1,0 +1,12 @@
+# Copy this file to config.yaml and edit the roots below.
+# config.yaml itself is gitignored since paths are usually machine-specific.
+
+roots:
+  - path: "D:/work/common"
+  - path: "D:/work/Gen8"
+  - path: "D:/work/Gen9"
+
+exclude:
+  - "**/~$*"
+  - "**/.git/**"
+  - "**/temp/**"

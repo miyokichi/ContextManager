@@ -1,0 +1,19 @@
+[project]
+name = "contextmanager"
+version = "0.1.0"
+description = "Read-only context index over existing work folders, so an Agent can find and read only what it needs."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pyyaml>=6.0",
+    "openpyxl>=3.1",
+    "python-pptx>=1.0",
+    "pypdf>=5.0",
+    "python-docx>=1.1",
+    "anthropic>=0.69",
+]
+
+[project.optional-dependencies]
+# Only needed if you use OpenAICompatAnalyzer (a local/self-hosted LLM
+# server such as Ollama, LM Studio, or vLLM's OpenAI-compatible endpoint).
+local-llm = ["openai>=1.0"]
